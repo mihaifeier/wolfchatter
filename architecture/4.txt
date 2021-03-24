@@ -1,0 +1,8 @@
+I used the websockets library from Spring Framework to implement the live communication between the server and the React app.
+The websockets use the TCP protocol.
+How it works:
+	1. The React app subscribes to the Web socket.
+	2. A POST/PUT request is sent by the React app to the server.
+	3. The server completes the request and, at the end, publishes an event.
+	4. The event is captured in an asynchronous way by the right handler (new marker handler, marker title handler, message handler).
+	5. The handler sends the new information to all subscribers.

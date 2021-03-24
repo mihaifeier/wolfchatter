@@ -1,0 +1,81 @@
+.leaflet-popup {
+    bottom: auto !important;
+    left: auto !important;
+    transform: translate(calc(100vw - 360px), 0) !important;
+    margin-top: 10px;
+    width: 350px;
+    z-index: 2000;
+}
+
+.spacer {
+    background-color: #000;
+    width: 50px;
+    height: 1px;
+    margin: 10px auto;
+}
+
+.edit-title-box {
+    display: flex;
+}
+
+.fa-icon-check {
+    background-color: #3B7F3F;
+}
+
+.fa-icon-cancel {
+    background-color: #A62F24;
+    margin-right: 10px;
+}
+
+.edit-title-input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.chat-window-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+}
+
+.type-message-zone {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-input {
+    flex-grow: 1;
+}
+
+.send-button {
+    color: white;
+    background-color: #3B7F3F;
+    margin-left: 10px;
+    margin-left: 10px;
+    border: 0;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.name-and-sent-line {
+    display: flex;
+    margin-top: 5px;
+}
+
+.chat-window {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.message-list {
+    flex-grow: 1;
+    overflow-y: scroll;
+}

@@ -1,0 +1,15 @@
+The Map component contains: 
+	- a list of markers
+Each Marker component contains:
+	- the latitude and longitude information for its positioning
+The Chatroom (ChatWindow in application) component contains:
+	- the marker id used for getting the chatroom details from the backend
+	- the title which is saved in the backend as marker.title
+	- the user which is used for sending/editing messages (saved as message.user in the backend)
+	- the list of messages linked to the marker
+The Message component contains:
+	- the id of the message used for editing/deleting the message
+	- the date of the message
+	- the user of the message
+	- the message value that can be edited
+	- the deleted attribute used for showing the message value/the message deleted information message ("The message has been deleted.")

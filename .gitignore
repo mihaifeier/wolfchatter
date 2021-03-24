@@ -1,0 +1,7 @@
+backend/.idea/*
+backend/target/*
+backend/src/test/*
+backend/.mvn/*
+frontend/node_modules
+/backend/mvnw
+/backend/mvnw.cmd

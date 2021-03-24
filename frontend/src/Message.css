@@ -1,0 +1,58 @@
+.message-zone {
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.message-line {
+    display: flex;
+    align-items: center;
+}
+
+.user-text {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 75px;
+    max-width: 75px;
+    line-break: anywhere;
+}
+
+.message-text {
+    text-align: justify;
+    line-break: anywhere;
+}
+
+.textArea {
+    height: 75px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+.message-icons {
+    display: flex;
+    margin-top: 5px;
+}
+
+.message-icons-start {
+    display: flex;
+}
+
+.message-icons-end {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.edit-message-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-time {
+    text-align: right;
+    font-weight: bold;
+}

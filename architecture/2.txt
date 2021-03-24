@@ -1,0 +1,24 @@
+Components: [
+	Map: [
+		Marker
+	],
+	MarkerClicked: [
+		True: [
+			Chatroom: [
+				Title,
+				Message[]: [
+					Username,
+					MessageValue,
+					MessageDate,
+				],
+				InputMessage,
+				InputUsername,
+				SubmitButton
+			]
+		],
+		False: [
+			InformationMessage
+		]
+		
+	]
+]

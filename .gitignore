@@ -5,3 +5,4 @@ backend/.mvn/*
 frontend/node_modules
 /backend/mvnw
 /backend/mvnw.cmd
+/.idea/workspace.xml

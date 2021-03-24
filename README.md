@@ -12,10 +12,12 @@
 3. PostgreSQL
 
 #Some important (in my opinion) implementation details:
-1. Saving/editing/deleting is done via REST APIs
-2. For all the CRUD operations (save marker, save/edit title, save/edit/delete message), there is a web socket that 
+1. Regarding the ERD diagram, I could not follow the description exactly because of the way my DataBase is structured, 
+so I included a simple ERD diagram containing the entities and links between them 
+2. Saving/editing/deleting is done via REST APIs
+3. For all the CRUD operations (save marker, save/edit title, save/edit/delete message), there is a web socket that 
 listens for the changes and updates them live in the page
-3. In the backend, the web socket handler is used in an asynchronous way, so the user does not have to wait for 
+4. In the backend, the web socket handler is used in an asynchronous way, so the user does not have to wait for 
 the handler to send all notifications before they get the API call response
 
 #Application use note(s):

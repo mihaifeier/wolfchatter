@@ -22,3 +22,5 @@ the handler to send all notifications before they get the API call response
 
 #Application use note(s):
 1. When trying to edit a title or a message, please click on the text
+2. As a pseudo-security measure, only the messages created by the same user name as the one present in the input can be 
+edited
